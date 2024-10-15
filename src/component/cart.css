@@ -1,0 +1,73 @@
+.cart-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff; /* White color for header */
+}
+
+.empty-cart {
+  color: #ffffff; /* White color for empty cart message */
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #ffffff; /* White color for cart items */
+}
+
+.item-price {
+  color: #ffffff; /* White color for item price */
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #ffffff; /* White color for total */
+}
+
+.cart-buttons {
+  margin-top: 20px;
+  display: flex; /* Use flexbox for better button alignment */
+  justify-content: center; /* Center the buttons */
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.order-btn {
+  background-color: #28a745; /* Green color for order button */
+  color: white; /* Ensure text color is white */
+  margin-left: 10px; /* Space between buttons */
+}
+
+.clear-btn {
+  background-color: #dc3545; /* Red color for clear button */
+  color: white; /* Ensure text color is white */
+  margin-left: 10px; /* Adjust margin to avoid overlap */
+}
+
+.btn:hover {
+  opacity: 0.9; /* Slightly transparent on hover */
+}

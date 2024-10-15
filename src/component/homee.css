@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(rgba(56, 56, 56, 0.692),rgba(56, 56, 56, 0.692)),url(https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-Cream-Sundae-for-Facebook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 7%;
+  font-size: 30px;
+}
+.logo {
+  font-size: 30px;
+  margin-top: 5%;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.font {
+  font-size: 70px;
+  font-family: sans-serif;
+  word-spacing: 7cm; 
+  text-align: center;
+  margin: 3%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100px;  
+  margin-left: -60px;         
+}
+
+.btn {
+  background-color: transparent;
+  text-align: center;
+  border-radius: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn button {
+  padding: 15px 32px;
+  font-size: 16px;
+  color: darkblue;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.btn button:hover {
+  background-color: rgb(157, 0, 0);
+  color: white;
+}
+
+

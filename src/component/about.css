@@ -1,0 +1,50 @@
+.about{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: -10px;
+    text-decoration:underline;
+    color: white;
+}
+.about-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .ab{
+    text-decoration: underline;
+    color: white;
+  }
+  .food-container {
+    margin-top: 30px;
+  }
+  
+  .food-category {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  .food-heading {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+  
+  .food-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }

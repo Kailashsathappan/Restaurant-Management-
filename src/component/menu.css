@@ -1,0 +1,132 @@
+/* General styles for the menu page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Dark background for contrast with white text */
+  color: #fff; /* White text */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+/* Product grid styling */
+.product-card {
+  background-color: #444; /* Dark card background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Adds a hover animation */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures images fit within the designated area */
+  border-radius: 8px;
+}
+
+.product-details {
+  margin-top: 15px;
+}
+
+.product-details h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}
+
+.product-details p {
+  font-size: 16px;
+  color: #ddd; /* Lighter white for descriptions */
+  margin-bottom: 10px;
+}
+
+/* Add to cart button styling */
+.add-to-cart {
+  background-color: #ff9800; /* Orange button color */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #e68a00; /* Darker orange on hover */
+}
+
+.add-to-cart:focus {
+  outline: none; /* Removes focus outline on click */
+}
+
+/* Centering the add to cart button and text */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* Responsive design for different screen sizes */
+@media screen and (max-width: 768px) {
+  .product-card {
+    padding: 15px;
+  }
+
+  .product-details h3 {
+    font-size: 20px;
+  }
+
+  .product-details p {
+    font-size: 14px;
+  }
+
+  .add-to-cart {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+/* Ensure that rows don't overlap by using flex-wrap */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;  /* Allows wrapping to next line without overlap */
+  justify-content: space-between; /* Adds space between items */
+}
+
+/* Ensure each product card has a consistent width */
+.product-card {
+  flex: 1 1 calc(25% - 20px);  /* Adjusts card size to 25% of the row minus margin */
+  margin: 10px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+/* Flexbox solution with space between columns */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;  /* Ensures wrapping to next row */
+  justify-content: space-between; /* Space between the items */
+}
+
+/* Product card layout */
+.product-card {
+  flex: 1 1 calc(25% - 20px);  /* 25% width minus 20px to account for margins */
+  margin: 10px;  /* Adds space between cards */
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}

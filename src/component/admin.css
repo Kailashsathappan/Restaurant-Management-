@@ -1,0 +1,135 @@
+.add {
+  color: black;
+  text-align: center;
+}
+
+.form {
+  width: 25%;
+}
+
+.form-group {
+  display: flex;        
+  flex-direction: column;
+  margin-bottom: 15px;  
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;   
+  color: black;
+}
+
+input, textarea {
+  border: 2px solid white;
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 300px;         
+  height: 40px;         
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 40px;
+  resize: none;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: auto;
+  text-align: left;   
+}
+
+button {
+  background-color: #2a0eab;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url('https://i.pinimg.com/originals/6a/44/f0/6a44f0e35b10e6ed063eeebf7ed844f9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-form h2 {
+  color: #ff0000;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 2px solid #007bff;
+  background-color: #fff;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
